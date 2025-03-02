@@ -1,9 +1,0 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base Light Theme -->
-    <style name="Base.Theme.ModelX" parent="Theme.Material3.Light.NoActionBar">
-        <item name="android:windowBackground">@color/white</item> <!-- ✅ Ensures white background -->
-        <item name="android:editTextBackground">@android:color/white</item> <!-- ✅ Fixes EditText background -->
-    </style>
-
-    <style name="Theme.ModelX" parent="Base.Theme.ModelX" />
-</resources>
